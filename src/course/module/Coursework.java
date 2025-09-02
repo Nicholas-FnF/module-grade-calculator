@@ -9,8 +9,13 @@ public class Coursework {
     public Coursework(int component, String title, String type, int mark) {
         this.component = component;
         this.title = title;
-        this.type = type;
         this.mark = mark;
+
+        if (!type.equalsIgnoreCase("assignment") && !type.equalsIgnoreCase("test")) {
+            System.out.println("Type must either be 'Assignment' or 'Test'");
+        } else {
+            this.type = type;
+        }
     }
 
     public int getComponent() {
@@ -43,5 +48,10 @@ public class Coursework {
 
     public void setMark(int mark) {
         this.mark = mark;
+    }
+
+    @Override
+    public String toString() {
+        return "-----\n" + "Title: " + this.getTitle() + "\n" + "Type: " + this.getType() + "\n" + "Mark: " + this.getMark() + "\n" + "Component: " + this.getComponent() + "\n" + "-----\n";
     }
 }

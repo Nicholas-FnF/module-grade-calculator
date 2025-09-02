@@ -1,45 +1,28 @@
 package course;
 
 import course.module.Coursework;
+import java.util.ArrayList;
 
 /**
  * Represents a module in a course with details such as credit value, coursework, name, stage, and exam.
  */
 public class Module {
     private int creditValue;
-    private Coursework coursework;
+
+    private final ArrayList<Coursework> coursework;
     private String name;
     private int stage;
-    private int exam;
-
-    /**
-     * Constructs a Module with all attributes.
-     *
-     * @param creditValue The credit value of the module.
-     * @param coursework  The coursework percentage of the module.
-     * @param name        The name of the module.
-     * @param stage       The stage or level of the module.
-     * @param exam        The exam percentage of the module.
-     */
-    public Module(int creditValue, Coursework coursework, String name, int stage, int exam) {
-        this.creditValue = creditValue;
-        this.coursework = coursework;
-        this.stage = stage;
-        this.name = name;
-        this.exam = exam;
-    }
 
     /**
      * Constructs a Module without the exam attribute.
      *
      * @param creditValue The credit value of the module.
-     * @param coursework  The coursework percentage of the module.
      * @param name        The name of the module.
      * @param stage       The stage or level of the module.
      */
-    public Module(int creditValue, Coursework coursework, String name, int stage) {
+    public Module(String name, int creditValue, int stage) {
+        this.coursework = new ArrayList<>();
         this.creditValue = creditValue;
-        this.coursework = coursework;
         this.stage = stage;
         this.name = name;
     }
@@ -54,6 +37,15 @@ public class Module {
     }
 
     /**
+     * Retrieves the list of coursework associated with the module.
+     *
+     * @return An `ArrayList` containing the coursework.
+     */
+    public ArrayList<Coursework> getCoursework() {
+        return this.coursework;
+    }
+
+    /**
      * Sets the credit value of the module.
      *
      * @param creditValue The credit value to set.
@@ -63,21 +55,12 @@ public class Module {
     }
 
     /**
-     * Gets the coursework percentage of the module.
-     *
-     * @return The coursework percentage.
-     */
-    public Coursework getCoursework() {
-        return this.coursework;
-    }
-
-    /**
      * Sets the coursework percentage of the module.
      *
      * @param coursework The coursework percentage to set.
      */
-    public void setCoursework(Coursework coursework) {
-        this.coursework = coursework;
+    public void addCoursework(Coursework coursework) {
+        this.coursework.add(coursework);
     }
 
     /**
@@ -117,20 +100,13 @@ public class Module {
     }
 
     /**
-     * Gets the exam percentage of the module.
-     *
-     * @return The exam percentage.
+     * Prints the details of all coursework associated with the module.
+     * Each coursework details are displayed in a formatted manner.
      */
-    public int getExam() {
-        return this.exam;
-    }
-
-    /**
-     * Sets the exam percentage of the module.
-     *
-     * @param exam The exam percentage to set.
-     */
-    public void setExam(int exam) {
-        this.exam = exam;
+    public void printCourseworkDetails() {
+        System.out.println(this.getName() + " Coursework Details:");
+        for (Coursework coursework : this.coursework) {
+            System.out.println(coursework.toString());
+        }
     }
 }
