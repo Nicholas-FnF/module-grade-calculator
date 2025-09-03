@@ -29,9 +29,9 @@ public class Calculator {
 
         for (Coursework coursework : this.coursework) {
             stringBuilder.append(String.format(
-                    "Module: %s (%s): Mark = %d, Component = %d%%\n",
-                    coursework.getTitle(),
+                    "%s: %s, Mark = %d, Component = %d%%\n",
                     coursework.getType(),
+                    coursework.getTitle(),
                     coursework.getMark(),
                     coursework.getComponent()
             ));

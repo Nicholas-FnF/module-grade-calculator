@@ -1,8 +1,41 @@
 {
-  "COMP3200": {
-    "creditValue": 15,
-    "name": "Introduction to Object-Oriented Programming",
-    "stage": 1
-
-  }
+  "modules": [
+    {
+      "name": "Introduction to Object-Oriented Programming",
+      "creditValue": 15,
+      "stage": 1,
+      "coursework": [
+        {
+          "title": "Class Definition",
+          "type": "Assignment",
+          "component": 15,
+          "mark": 100
+        },
+        {
+          "title": "Collections",
+          "type": "Assignment",
+          "component": 20,
+          "mark": 100
+        },
+        {
+          "title": "Code Quality",
+          "type": "Assignment",
+          "component": 15,
+          "mark": 83
+        },
+        {
+          "title": "Class Exercises",
+          "type": "Assignment",
+          "component": 20,
+          "mark": 100
+        },
+        {
+          "title": "1.5 hour timed Assessment",
+          "type": "Assignment",
+          "component": 30,
+          "mark": 100
+        }
+      ]
+    }
+  ]
 }
