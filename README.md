@@ -2,9 +2,9 @@
   <img width="536" height="536" alt="d3f14248-867f-4b5b-a925-75a2cd8b6e3c" src="https://github.com/user-attachments/assets/e488541c-ab13-4134-bd10-4b913bc44b36" />
 </div>
 
-This is a small Java program designed to help you work out your current grade in a module. You just enter your marks for assignments, exams, or other assessments, and it will calculate your overall grade so you can easily see how you’re doing.
+A small Java program designed to help you work out your current grade in a module. You just enter your marks for assignments, exams, or other assessments, and it will calculate your overall grade so you can easily see how you’re doing.
 
-## Installation
+## Installation 🛠️
 
 1. Click the green "Code" button and copy the url.
 
@@ -18,7 +18,7 @@ git clone https://github.com/alsonick/module-grade-calculator.git
 
 3. Open the project in your preferred IDE or code editor.
 
-## Data
+## Data 💾
 
 You don't need to modify the source code, all you need to do is input your data into `data.json`
 
@@ -43,7 +43,42 @@ Here's how the JSON structure should look like:
 }
 ```
 
-## Running
+> All the fields should be self explanatory but there might be some confusion with the `component`field, the component field is basically _weight_ amount of the assignment or exam.
+
+If you'd like to only test it with some dummy data (my actual grades) then copy this into the `data.json` file.
+
+```json
+{
+  "modules": [
+    {
+      "name": "Databases and the Web",
+      "stage": 1,
+      "coursework": [
+        {
+          "title": "A1 - HTML & Javascript",
+          "type": "Coursework",
+          "component": 25,
+          "mark": 89
+        },
+        {
+          "title": "A2 - Databases & PHP",
+          "type": "Coursework",
+          "component": 25,
+          "mark": 95
+        },
+        {
+          "title": "Exam",
+          "type": "Coursework",
+          "component": 50,
+          "mark": 70
+        }
+      ]
+    }
+  ]
+}
+```
+
+## Running ▶️
 
 Run the `ModuleGradeCalculator` class and you should see the result printed in the terminal.
 
@@ -63,7 +98,7 @@ Final Grade: 81.00
 --------------------
 ```
 
-## License
+## License 📜
 
 MIT License
 
