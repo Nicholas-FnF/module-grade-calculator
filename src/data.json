@@ -1,110 +1,14 @@
 {
   "modules": [
     {
-      "name": "Introduction to Object-Oriented Programming",
-      "stage": 1,
+      "name": "",
+      "stage": 0,
       "coursework": [
         {
-          "title": "Class Definition",
-          "type": "Assignment",
-          "component": 15,
-          "mark": 100
-        },
-        {
-          "title": "Collections",
-          "type": "Assignment",
-          "component": 20,
-          "mark": 100
-        },
-        {
-          "title": "Code Quality",
-          "type": "Assignment",
-          "component": 15,
-          "mark": 83
-        },
-        {
-          "title": "Class Exercises",
-          "type": "Assignment",
-          "component": 20,
-          "mark": 100
-        },
-        {
-          "title": "1.5 hour timed Assessment",
-          "type": "Assignment",
-          "component": 30,
-          "mark": 100
-        }
-      ]
-    },
-    {
-      "name": "Databases and the Web",
-      "stage": 1,
-      "coursework": [
-        {
-          "title": "A1 - HTML & Javascript",
-          "type": "Coursework",
-          "component": 25,
-          "mark": 89
-        },
-        {
-          "title": "A2 - Databases & PHP",
-          "type": "Coursework",
-          "component": 25,
-          "mark": 95
-        },
-        {
-          "title": "Exam",
-          "type": "Examination",
-          "component": 50,
-          "mark": 70
-        }
-      ]
-    },
-    {
-      "name": "Problem Solving with Algorithms",
-      "stage": 1,
-      "coursework": [
-        {
-          "title": "Theory Assessment 1",
-          "type": "Assignment",
-          "component": 20,
-          "mark": 56
-        },
-        {
-          "title": "Theory Assessment 2",
-          "type": "Assignment",
-          "component": 30,
-          "mark": 50
-        },
-        {
-          "title": "Programming Assessment 1",
-          "type": "Assignment",
-          "component": 10,
-          "mark": 100
-        },
-        {
-          "title": "Programming Assessment 2",
-          "type": "Assignment",
-          "component": 10,
-          "mark": 100
-        },
-        {
-          "title": "Programming Assessment 3",
-          "type": "Assignment",
-          "component": 10,
-          "mark": 100
-        },
-        {
-          "title": "Programming Assessment 4",
-          "type": "Assignment",
-          "component": 10,
-          "mark": 60
-        },
-        {
-          "title": "Programming Assessment 5",
-          "type": "Assignment",
-          "component": 10,
-          "mark": 100
+          "component": "",
+          "title": "",
+          "type": "",
+          "mark": 0
         }
       ]
     }

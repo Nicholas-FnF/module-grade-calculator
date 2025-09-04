@@ -11,8 +11,8 @@ import javax.json.*;
 /**
  * The entry point of the application.
  */
-public class Main {
-    private static final Logger logger = Logger.getLogger(Main.class.getName());
+public class ModuleGradeCalculator {
+    private static final Logger logger = Logger.getLogger(ModuleGradeCalculator.class.getName());
 
     /**
      * The main method serves as the starting point for the application.
