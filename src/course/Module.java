@@ -7,33 +7,20 @@ import java.util.ArrayList;
  * Represents a module in a course with details such as credit value, coursework, name, stage, and exam.
  */
 public class Module {
-    private int creditValue;
-
     private final ArrayList<Coursework> coursework;
-    private String name;
-    private int stage;
+    private final String name;
+    private final int stage;
 
     /**
      * Constructs a Module without the exam attribute.
      *
-     * @param creditValue The credit value of the module.
      * @param name        The name of the module.
      * @param stage       The stage or level of the module.
      */
-    public Module(String name, int creditValue, int stage) {
+    public Module(String name, int stage) {
         this.coursework = new ArrayList<>();
-        this.creditValue = creditValue;
         this.stage = stage;
         this.name = name;
-    }
-
-    /**
-     * Gets the credit value of the module.
-     *
-     * @return The credit value.
-     */
-    public int getCreditValue() {
-        return this.creditValue;
     }
 
     /**
@@ -43,15 +30,6 @@ public class Module {
      */
     public ArrayList<Coursework> getCoursework() {
         return this.coursework;
-    }
-
-    /**
-     * Sets the credit value of the module.
-     *
-     * @param creditValue The credit value to set.
-     */
-    public void setCreditValue(int creditValue) {
-        this.creditValue = creditValue;
     }
 
     /**
@@ -73,15 +51,6 @@ public class Module {
     }
 
     /**
-     * Sets the name of the module.
-     *
-     * @param name The name to set.
-     */
-    public void setName(String name) {
-        this.name = this.name;
-    }
-
-    /**
      * Gets the stage or level of the module.
      *
      * @return The stage of the module.
@@ -91,22 +60,9 @@ public class Module {
     }
 
     /**
-     * Sets the stage or level of the module.
-     *
-     * @param stage The stage to set.
+     * Prints a summary of the module heading, including the name, stage, and a grade summary header.
      */
-    public void setStage(int stage) {
-        this.stage = stage;
-    }
-
-    /**
-     * Prints the details of all coursework associated with the module.
-     * Each coursework details are displayed in a formatted manner.
-     */
-    public void printCourseworkDetails() {
-        System.out.println(this.getName() + " Coursework Details:");
-        for (Coursework coursework : this.coursework) {
-            System.out.println(coursework.toString());
-        }
+    public void printModuleHeadingSummary() {
+        System.out.println(getName() + " | " + "Stage: " + getStage() + " | Grade Summary:\n");
     }
 }
