@@ -4,6 +4,11 @@
 
 A small Java program designed to help you work out your current grade in a module. You just enter your marks for assignments, exams, or other assessments, and it will calculate your overall grade so you can easily see how you’re doing.
 
+## Prerequisites 📋
+
+- Should know how to open and use a [terminal](https://en.wikipedia.org/wiki/Computer_terminal).
+- Basic understanding of [Git](https://git-scm.com/) & [JSON](https://www.json.org/json-en.html).
+
 ## Installation 🛠️
 
 1. Click the green "Code" button and copy the url.
@@ -43,7 +48,7 @@ Here's how the JSON structure should look like:
 }
 ```
 
-> All the fields should be self explanatory but there might be some confusion with the `component`field, the component field is basically _weight_ amount of the assignment or exam.
+> All the fields should be self explanatory but there might be some confusion with the `component`field, the component field is basically _weight_ amount of the assignment or exam. The `stage` field basically just means the current year.
 
 If you'd like to only test it with some dummy data (my actual grades) then copy this into the `data.json` file.
 
