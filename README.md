@@ -1,6 +1,6 @@
-<img width="636" height="636" alt="d3f14248-867f-4b5b-a925-75a2cd8b6e3c" src="https://github.com/user-attachments/assets/e488541c-ab13-4134-bd10-4b913bc44b36" />
-
-
+<div align="center">
+  <img width="636" height="636" alt="d3f14248-867f-4b5b-a925-75a2cd8b6e3c" src="https://github.com/user-attachments/assets/e488541c-ab13-4134-bd10-4b913bc44b36" />
+</div>
 
 A small Java program that calculates your current grade for a given module.
 
