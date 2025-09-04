@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="636" height="636" alt="d3f14248-867f-4b5b-a925-75a2cd8b6e3c" src="https://github.com/user-attachments/assets/e488541c-ab13-4134-bd10-4b913bc44b36" />
+  <img width="536" height="536" alt="d3f14248-867f-4b5b-a925-75a2cd8b6e3c" src="https://github.com/user-attachments/assets/e488541c-ab13-4134-bd10-4b913bc44b36" />
 </div>
 
 A small Java program that calculates your current grade for a given module.
@@ -32,9 +32,9 @@ Here's how the JSON structure should look like:
       "stage": 0,
       "coursework": [
         {
+          "component": "",
           "title": "",
           "type": "",
-          "component": "",
           "mark": 0
         }
       ]
@@ -45,4 +45,20 @@ Here's how the JSON structure should look like:
 
 ## Running
 
-Run the `ModuleGradeCalculator` class and you should see the result printed in the 
+Run the `ModuleGradeCalculator` class and you should see the result printed in the terminal.
+
+Here's an example response:
+
+```
+--------------------
+
+Databases and the Web | Stage: 1 | Grade Summary:
+
+Coursework: A1 - HTML & Javascript, Mark = 89, Component = 25%
+Coursework: A2 - Databases & PHP, Mark = 95, Component = 25%
+Coursework: Exam, Mark = 70, Component = 50%
+
+Final Grade: 81.00
+
+--------------------
+```
