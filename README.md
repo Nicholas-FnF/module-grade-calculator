@@ -29,6 +29,8 @@ You don't need to modify the source code, all you need to do is input your data 
 
 Here's how the JSON structure should look like:
 
+> This alone won't compile properly, you need to fill the fields with your own data.
+
 ```json
 {
   "modules": [
@@ -48,7 +50,7 @@ Here's how the JSON structure should look like:
 }
 ```
 
-> All the fields should be self explanatory but there might be some confusion with the `component`field, the component field is basically _weight_ amount of the assignment or exam. The `stage` field basically just means the current year.
+> All the fields should be self explanatory but there might be some confusion with the `component`field, the component field is basically the _weight_ amount of the assignment or exam.
 
 If you'd like to only test it with some dummy data (my actual grades) then copy this into the `data.json` file.
 
@@ -82,6 +84,8 @@ If you'd like to only test it with some dummy data (my actual grades) then copy 
   ]
 }
 ```
+
+> The `type` field should either be 'Assignment', 'Test', 'Coursework' or 'Examination', if neither of these types are provided, then 'Invalid' will be set as the type.
 
 ## Running ▶️
 
