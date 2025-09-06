@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="536" height="536" alt="Group 5" src="https://github.com/user-attachments/assets/6388ce7d-6c4b-4d47-a21a-6eb99d77b58d" />
+  <img width="536" height="536" alt="Module Grade Calculator Logo" src="https://github.com/user-attachments/assets/3d6de291-3523-4d76-84ec-edda978d57b4" />
 </div>
 
 A small Java program designed to help you work out your current grade in a module. You just enter your marks for assignments, exams, or other assessments, and it will calculate your overall grade so you can see how you’re doing.
