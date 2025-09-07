@@ -42,7 +42,6 @@ public class Calculator {
 
     /**
      * Prints and returns a summary of the coursework details and the final grade.
-     *
      */
     public void printSummary() {
         // Create a StringBuilder to construct the summary string
