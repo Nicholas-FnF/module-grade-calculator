@@ -1,5 +1,6 @@
 <div align="center">
-  <img width="536" height="536" alt="d3f14248-867f-4b5b-a925-75a2cd8b6e3c" src="https://github.com/user-attachments/assets/e488541c-ab13-4134-bd10-4b913bc44b36" />
+  <img width="636" height="636" alt="Module Grade Calculator Logo" src="https://github.com/user-attachments/assets/7bfb397c-e16b-477a-997a-e64f85e2a404" />
+
 </div>
 
 A small Java program designed to help you work out your current grade in a module. You just enter your marks for assignments, exams, or other assessments, and it will calculate your overall grade so you can see how you’re doing.
@@ -29,6 +30,8 @@ You don't need to modify the source code, all you need to do is input your data 
 
 Here's how the JSON structure should look like:
 
+> This alone won't compile properly, you need to fill the fields with your own data.
+
 ```json
 {
   "modules": [
@@ -48,7 +51,7 @@ Here's how the JSON structure should look like:
 }
 ```
 
-> All the fields should be self explanatory but there might be some confusion with the `component`field, the component field is basically _weight_ amount of the assignment or exam. The `stage` field basically just means the current year.
+> All the fields should be self explanatory but there might be some confusion with the `component`field, the component field is basically the _weight_ amount of the assignment or exam.
 
 If you'd like to only test it with some dummy data (my actual grades) then copy this into the `data.json` file.
 
@@ -82,6 +85,8 @@ If you'd like to only test it with some dummy data (my actual grades) then copy 
   ]
 }
 ```
+
+> The `type` field should either be 'Assignment', 'Test', 'Coursework' or 'Examination', if neither of these types are provided, then 'Invalid' will be set as the type.
 
 ## Running ▶️
 
