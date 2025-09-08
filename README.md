@@ -13,7 +13,8 @@ A small Java program designed to help you work out your current grade in a modul
 
 1. Click the green "Code" button and copy the url.
 
-<img width="419" height="586" alt="image" src="https://github.com/user-attachments/assets/5baa1497-dcef-4fa2-87ba-0c706089890a" />
+<img width="505" height="383" alt="image" src="https://github.com/user-attachments/assets/d064b539-b1f6-49e0-b541-b9ad946c66a1" />
+
 
 2. Clone the project in your desired location.
 
