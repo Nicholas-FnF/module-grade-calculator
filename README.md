@@ -1,6 +1,5 @@
 <div align="center">
-  <img width="636" height="636" alt="Module Grade Calculator Logo" src="https://github.com/user-attachments/assets/7bfb397c-e16b-477a-997a-e64f85e2a404" />
-
+  <img width="636" height="636" alt="Module Grade Calculator Logo" src="https://github.com/user-attachments/assets/f0f30ade-b72e-4a83-a103-0a02761c7e11" />
 </div>
 
 A small Java program designed to help you work out your current grade in a module. You just enter your marks for assignments, exams, or other assessments, and it will calculate your overall grade so you can see how you’re doing.
@@ -19,7 +18,7 @@ A small Java program designed to help you work out your current grade in a modul
 2. Clone the project in your desired location.
 
 ```
-git clone https://github.com/alsonick/module-grade-calculator.git
+$ git clone https://github.com/alsonick/module-grade-calculator.git
 ```
 
 3. Open the project in your preferred IDE or code editor.
