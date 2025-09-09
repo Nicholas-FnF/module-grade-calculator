@@ -108,6 +108,10 @@ Final Grade: 81.00
 --------------------
 ```
 
+Example Recording:
+
+![ScreenRecording2025-09-09at14 55 24-ezgif com-optimize](https://github.com/user-attachments/assets/ea4e30d8-510c-48fc-914e-120ebc7bd4e3)
+
 ## License 📜
 
 MIT License
