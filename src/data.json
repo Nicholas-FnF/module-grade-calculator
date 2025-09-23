@@ -1,14 +1,26 @@
 {
   "modules": [
     {
-      "name": "",
-      "stage": 0,
+      "name": "Databases and the Web",
+      "stage": 1,
       "coursework": [
         {
-          "component": "",
-          "title": "",
-          "type": "",
-          "mark": 0
+          "title": "A1 - HTML & Javascript",
+          "type": "Coursework",
+          "component": 25,
+          "mark": 89
+        },
+        {
+          "title": "A2 - Databases & PHP",
+          "type": "Coursework",
+          "component": 25,
+          "mark": 95
+        },
+        {
+          "title": "Exam",
+          "type": "Coursework",
+          "component": 50,
+          "mark": 70
         }
       ]
     }

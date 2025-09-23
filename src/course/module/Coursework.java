@@ -29,10 +29,7 @@ public class Coursework {
                 !type.equalsIgnoreCase("coursework")
         ) {
             // Print an error message if the type is invalid
-            System.out.println("Type must either be 'Assignment', 'Test' or 'Examination'.");
-
-            // Set the type to invalid
-            this.type = "Invalid";
+            throw new IllegalArgumentException("Type must either be 'Assignment', 'Test' or 'Examination'.");
         } else {
             // Set the type if it is valid
             this.type = type;
