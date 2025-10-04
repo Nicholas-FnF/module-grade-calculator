@@ -1,6 +1,4 @@
-<div align="center">
-  <img width="636" height="636" alt="Module Grade Calculator Logo" src="https://github.com/user-attachments/assets/f0f30ade-b72e-4a83-a103-0a02761c7e11" />
-</div>
+# Module Grade Calculator
 
 A small Java program designed to help you work out your current grade in a module. You just enter your marks for assignments, exams, or other assessments, and it will calculate your overall grade so you can see how you’re doing.
 
